@@ -161,7 +161,7 @@ public final class Modules {
     public static class ExtraInfoModule extends HudModule {
         public final Setting.Bool ping = add(new Setting.Bool("Show ping", true));
         public final Setting.Bool server = add(new Setting.Bool("Show server", true));
-        public ExtraInfoModule() { super("Server Info", "Ping and current server", Category.HUD, true); }
+       public ExtraInfoModule() { super("Server Info", "Ping and current server"); }
     }
 
     public static class HitStarsModule extends Module {
